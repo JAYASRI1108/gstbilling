@@ -44,9 +44,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`a_id`, `a_uname`, `a_pass`, `a_name`, `a_place`, `a_address`, `a_gstno`, `a_state`, `a_code`, `created_at`) VALUES
-(1, 'xxxx', 'abc', 'yyyyyyyyyyyyy', 'yyyyyyyyy', 'xxxxxxxxxxxxxxxxx', '12233445667', 'Tamil Nadu', '11', '2025-07-14 11:33:09'),
-(2, 'yyyy', 'xyz', 'xxxxxxxxxxxxxx', 'yyyyyyyy', 'zzzzzzzzzzzzzzzzz', '123rgy67777', 'Tamil Nadu', '53', '2025-07-14 11:33:09');
+
 
 -- --------------------------------------------------------
 
@@ -71,13 +69,6 @@ CREATE TABLE `customers` (
 -- Dumping data for table `customers`
 --
 
-INSERT INTO `customers` (`c_id`, `a_id`, `c_name`, `c_address`, `c_gstno`, `c_state`, `c_code`, `created_at`, `status`, `a_c_id`) VALUES
-(1, 1, 'Surabhi enterprises', '12/36 , South Saminathapuram Karur', '1234567890', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 15:30:48', 'active', 1),
-(2, 1, 'anushya', '12/36 , South Saminathapuram Karur', '1234567890', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 15:49:28', 'active', 2),
-(3, 1, 'Chettinad1', '12/36 , South Saminathapuram Karur', '12345', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 15:54:47', 'active', 3),
-(4, 1, 'jaisri', '12/36 , South Saminathapuram Karur', '0987654321', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 16:11:29', 'active', 4),
-(5, 1, 'jaisri1', '12/36 , South Saminathapuram Karur', '00', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 16:25:10', 'active', 5),
-(6, 1, 'srijai', '12/36 , South Saminathapuram Karur', '0987654321', 'Tamil Nadu', 'Tamil Nadu', '2025-08-24 18:03:24', 'active', 6);
 
 -- --------------------------------------------------------
 
@@ -94,8 +85,6 @@ CREATE TABLE `goods` (
 -- Dumping data for table `goods`
 --
 
-INSERT INTO `goods` (`g_id`, `goods_name`) VALUES
-(1, 'welding machine');
 
 -- --------------------------------------------------------
 
@@ -131,12 +120,7 @@ CREATE TABLE `invoice_details` (
 -- Dumping data for table `invoice_details`
 --
 
-INSERT INTO `invoice_details` (`invoice_id`, `a_id`, `a_c_id`, `c_id`, `invoice_no`, `invoice_date`, `delivery_note`, `mode_or_terms_of_payment`, `reference_no_date`, `other_references`, `buyers_order_no`, `buyers_order_date`, `dispatch_doc_no`, `delivery_note_date`, `dispatched_through`, `destination`, `terms_of_delivery`, `status`, `created_at`, `cgst_percent`, `sgst_percent`) VALUES
-(1, 1, 1, 1, '1/25', '2025-08-24', '', '', '', '', '', NULL, '', NULL, '', '', '', 'Active', '2025-08-24 15:31:13', 6, 6),
-(2, 1, 2, 2, '2/25', '2025-08-24', '', '', '', '', '', NULL, '', NULL, '', '', '', 'Active', '2025-08-24 15:49:47', 9, 9),
-(3, 1, 3, 3, '3/25', '2025-08-24', '', '', '', '', '', NULL, '', NULL, '', '', '', 'Active', '2025-08-24 15:55:20', 9, 9),
-(4, 1, 4, 4, '4/25', '2025-08-24', '', '', '', '', '', NULL, '', NULL, '', '', '', 'Active', '2025-08-24 16:11:41', 6, 6),
-(5, 1, 5, 5, '5/25', '2025-08-24', '', '', '', '', '', NULL, '', NULL, '', '', '', 'Active', '2025-08-24 16:25:24', 9, 9);
+
 
 -- --------------------------------------------------------
 
@@ -163,14 +147,6 @@ CREATE TABLE `store_goods` (
 
 --
 -- Dumping data for table `store_goods`
---
-
-INSERT INTO `store_goods` (`id`, `a_id`, `a_c_id`, `c_id`, `invoice_id`, `g_id`, `goods_name`, `hsn_sac`, `quantity`, `rate`, `discount_percent`, `amount`, `status`, `created_at`) VALUES
-(1, 1, 1, 1, 1, 1, 'welding machine', '123456', 12.00, 12.00, 0.00, 144.00, 'active', '2025-08-24 21:02:21'),
-(2, 1, 3, 3, 3, 1, 'welding machine', '123', 2.00, 12.00, 0.00, 24.00, 'active', '2025-08-24 21:34:10'),
-(3, 1, 4, 4, 4, 1, 'welding machine', '123456', 9.00, 9.00, 0.00, 81.00, 'active', '2025-08-24 21:41:59'),
-(4, 1, 5, 5, 5, 1, 'welding machine', '23', 3.00, 2.00, 0.00, 6.00, 'active', '2025-08-24 21:55:48'),
-(5, 1, 2, 2, 2, 1, 'welding machine', '2339', 9.00, 99.00, 0.00, 891.00, 'active', '2025-08-24 23:06:04');
 
 --
 -- Indexes for dumped tables
