@@ -44,4 +44,4 @@ A web-based GST billing and invoice management system built with PHP, MySQL, Boo
 - jQuery, Chart.js, and other frontend libraries (see `package.json`)
 
 ## License
-This project is for educational/demo purposes. Customize as needed for your business.
+This project is based on my client requirements. Customize as needed for your business.
