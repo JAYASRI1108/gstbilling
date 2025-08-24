@@ -1,0 +1,99 @@
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => cement
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => cement
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => cement
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => welding machine
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [username] => admin2
+)
+
+POST: Array
+(
+    [goods_name] => cement
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => welding machine
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => dalmia
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => cement
+)
+
+Session: Array
+(
+    [user_id] => 1
+    [username] => admin1
+)
+
+POST: Array
+(
+    [goods_name] => welding machine
+)
+
